@@ -1,0 +1,13 @@
+# TrafficIQ
+node_modules/
+venv/
+__pycache__/
+*.pyc
+.env
+*.pt
+uploads/
+static/*.jpg
+static/*.png
+processed/
+.DS_Store
+*.log

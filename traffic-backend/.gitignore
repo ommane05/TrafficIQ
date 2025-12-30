@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.pyc
+
+# Virtual Environment
+venv/
+env/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Uploads and Processed Files (runtime generated)
+uploads/
+static/*.jpg
+static/*.jpeg
+static/*.png
+static/*.gif
+
+# Models (too large for git, download separately)
+models/*.pt
+
+# Logs
+*.log
+logs/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Root level duplicate models (should be in models/ folder)
+yolov8n.pt
+yolov8s.pt
